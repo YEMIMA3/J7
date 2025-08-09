@@ -1,0 +1,21 @@
+{
+  "name": "typescript_ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "run:1": "tsc 1_types.ts && node 1_types.js",
+    "run:2": "tsc 2_functions.ts && node 2_functions.js",
+    "run:3": "tsc 3_arrow_functions.ts && node 3_arrow_functions.js",
+    "run:4": "tsc 4_classes.ts && node 4_classes.js",
+    "run:5": "tsc 5_namespaces.ts && node 5_namespaces.js",
+    "run:6": "tsc 6_generics.ts && node 6_generics.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
